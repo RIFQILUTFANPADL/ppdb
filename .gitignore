@@ -1,0 +1,52 @@
+# Umum
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+
+# File PHP spesifik
+php_errors.log
+
+# Konfigurasi Editor/IDE
+.vscode/
+.idea/
+nbproject/
+*.sublime-project
+*.sublime-workspace
+
+# Sistem Operasi
+.DS_Store
+Thumbs.db
+
+# Direktori Composer
+vendor/
+
+# Cache dan File Session
+cache/
+sessions/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+storage/logs/
+
+# File yang dibuat otomatis
+*.env
+.env.*
+composer.lock
+
+# Direktori Upload
+public/uploads/
+public/images/
+
+# File Debug dan Testing
+coverage/
+phpunit.xml
+phpunit.xml.dist
+
+# Framework Laravel (jika menggunakan Laravel)
+bootstrap/cache/
+node_modules/
+public/storage/
+storage/*.key
+.env.backup
